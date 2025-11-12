@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 声明一个名为 "myTextColor" 的自定义主题属性，它的格式是颜色 -->
+    <attr name="myTextColor" format="color" />
+    <!-- 新增：背景颜色角色 -->
+    <attr name="myBackgroundColor" format="color" />
+</resources>

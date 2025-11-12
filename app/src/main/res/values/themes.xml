@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 1. Default 主题 (浅色版本) -->
+    <style name="Theme.MyApp.Default" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <!-- 分配角色 -->
+        <item name="myTextColor">@color/black</item>
+        <item name="myBackgroundColor">@color/white</item>
+    </style>
+
+    <!-- 2. Orange 主题 (浅色版本) -->
+    <style name="Theme.MyApp.Orange" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/orange_500</item>
+        <item name="colorPrimaryVariant">@color/orange_700</item>
+        <!-- 分配角色 -->
+        <item name="myTextColor">@color/deep_orange</item>
+        <item name="myBackgroundColor">@color/white</item>
+    </style>
+</resources>

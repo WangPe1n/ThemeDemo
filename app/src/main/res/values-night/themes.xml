@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 1. Default 主题 (深色版本) -->
+    <!-- 注意：主题名称 'Theme.MyApp.Default' 必须与浅色版本完全相同 -->
+    <style name="Theme.MyApp.Default" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_200</item> <!-- 使用更亮的紫色 -->
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <!-- 分配角色 -->
+        <item name="myTextColor">@color/white</item>
+        <item name="myBackgroundColor">@color/dark_background</item>
+    </style>
+
+
+    <!-- 2. Orange 主题 (深色版本) -->
+    <!-- 主题名称 'Theme.MyApp.Orange' 也必须与浅色版本完全相同 -->
+    <style name="Theme.MyApp.Orange" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/orange_500</item> <!-- 橙色本身很亮，可以直接用 -->
+        <item name="colorPrimaryVariant">@color/orange_700</item>
+        <!-- 分配角色 -->
+        <item name="myTextColor">@color/white</item>
+        <item name="myBackgroundColor">@color/dark_background</item>
+    </style>
+</resources>

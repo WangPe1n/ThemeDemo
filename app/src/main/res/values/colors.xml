@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 浅色模式颜色 -->
+    <color name="purple_500">#FF6200EE</color> <!-- Default 主题主色 (浅) -->
+    <color name="purple_700">#FF3700B3</color>
+    <color name="orange_500">#FFFF9800</color> <!-- Orange 主题主色 (浅) -->
+    <color name="orange_700">#FFF57C00</color>
+    <color name="deep_orange">#FFFF5722</color> <!-- Orange 主题文字颜色 (浅) -->
+    <color name="black">#FF000000</color>     <!-- 默认文字颜色 (浅) -->
+    <color name="white">#FFFFFFFF</color>     <!-- 默认背景颜色 (浅) -->
+
+    <!-- 深色模式颜色 -->
+    <color name="purple_200">#FFBB86FC</color> <!-- Default 主题主色 (深) -->
+    <color name="dark_background">#FF121212</color> <!-- 通用背景颜色 (深) -->
+</resources>
